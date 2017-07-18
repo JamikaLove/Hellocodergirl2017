@@ -14,7 +14,7 @@ public class Poem
         out.println("Beware the Jubjub bird, and shun");
         out.println("   The frumious Bandersnatch!\"\n");
         out.println("He took his vorpal sword in hand:");
-        out.println("   Long time the manxom foe he sought -");
+        out.println("   Long time the manxome foe he sought -");
         out.println("So rested he by the Tumtum tree,");
         out.println("   And stood awhile in thought.\n");
         out.println("And as in unffish thought he stood,");
@@ -39,7 +39,7 @@ public class Poem
         out.println("she couldn't make it out at all.) \"Somehow it seems");
         out.println("to fill my head with ideas - only I don't exactly");
         out.println("know what they are! However, SOMEBODY killed");
-        out.println("SOMETHING: that's clear, at any rate.");
+        out.println("SOMETHING: that's clear, at any rate.\");
         
         
         
