@@ -39,7 +39,7 @@ public class Poem
         out.println("she couldn't make it out at all.) \"Somehow it seems");
         out.println("to fill my head with ideas - only I don't exactly");
         out.println("know what they are! However, SOMEBODY killed");
-        out.println("SOMETHING: that's clear, at any rate.\");
+        out.println("SOMETHING: that's clear, at any rate.\"");
         
         
         
@@ -47,3 +47,4 @@ public class Poem
         
     }
 }
+
