@@ -15,7 +15,7 @@ public class SandwichShop
         //Your code goes below here.
         int veggiesSold;
         out.println("Checking sales goals.");
-        out.println("The sales goal for veggie sandwiches is 50.");
+        out.println("The sales goal for veggie sandwiches is " + goalForVeggies +"");
         out.print("How many veggie sandwiches were sold today?");
         veggiesSold = keyboard.nextInt();
         if (veggiesSold >= goalForVeggies) {
@@ -25,7 +25,7 @@ public class SandwichShop
         }
         
         int burgersSold;
-        out.println("The sales goal for burgers is 250");
+        out.println("The sales goal for burgers is " + goalForBurgers +"");
         out.print("How many burgers were sold today?");
         burgersSold = keyboard.nextInt();
         if (burgersSold >= goalForBurgers) {
@@ -34,7 +34,7 @@ public class SandwichShop
           out.println("Fell short");
         }
         int subsSold;
-        out.println("The sales goal for subs is 180");
+        out.println("The sales goal for subs is " + goalForSubs +"");
         out.print("How many subs were sold today?");
         subsSold = keyboard.nextInt();
         if (subsSold >= goalForSubs) {
@@ -43,7 +43,7 @@ public class SandwichShop
             out.println("Fell short");
         }
         int soupsSold;
-        out.println("The sales goal for soup is 70");
+        out.println("The sales goal for soup is " + goalForSoup +"");
         out.print("How many soups were sold today?");
         soupsSold = keyboard.nextInt();
         if (soupsSold >= goalForSoup) {
