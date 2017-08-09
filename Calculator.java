@@ -19,8 +19,9 @@ public class Calculator
     }
     public static float divide(int a, int b)
     {
-        float answer = (float)a/(float)b;
+        float answer = (float)a / (float)b;
         return answer;
+       
     }
     public static void main(String[] args)
     {
@@ -43,8 +44,11 @@ public class Calculator
         // because the multiply() method is incomplete. Fix it!
         System.out.println("3 times 3 equals " + multiply(3, 3));
         System.out.println("2 times 4 equals " + multiply (2, 4));
-        
-        System.out.println ("9 divided by 3 equals " + divide(9,3));
-        System.out.println ("2 divided by 8 equals " + divide(2, 8));
+        float result = 0.0f;
+        result = divide (2,8);
+        System.out.println ("2 divided by 8 equals " + result);
+        float resultTwo = 0.0f;
+        resultTwo = divide (65,27);
+        System.out.println ("65 divided by 27 equals " + resultTwo);
     }
 }
