@@ -7,23 +7,20 @@ public static void main (String[] args)
     {
         Scanner keyboard = new Scanner(System.in);
         boolean keepGoing = true;
-        String firstName = "";
-        String lastName = "";
-        String fullName = firstName + lastName;
-        fullName = "";
+        String fullName = "";
         String amountDonated = "";
         
         while (keepGoing)
         {
             
             System.out.print("Please enter a donor's full name.");
-            fullName = keyboard.next();
-            if (!fullName.equals("quit") || fullName.equals(firstName + lastName))
+            fullName = keyboard.nextLine();
+            if (!fullName.equals("quit"))
             {
             System.out.print("Please enter the amount of the donation.");
-            amountDonated = keyboard.next();
+            amountDonated = keyboard.nextLine();
             }
-            if (!fullName.equals("quit") || fullName.equals(firstName + lastName))
+            if (!fullName.equals("quit"))
             {
             keepGoing = true;
             System.out.println("Dear "+ fullName + "");
