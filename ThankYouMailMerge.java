@@ -10,6 +10,7 @@ public static void main (String[] args)
         String fullName = "";
         String amountDonated = "";
         
+        System.out.println("Thank You Notes");
         while (keepGoing)
         {
             
